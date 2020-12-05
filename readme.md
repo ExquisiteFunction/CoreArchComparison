@@ -12,10 +12,10 @@ python3 CoreArchDataBase.py -h
 Here is Core Architecture Infomation Database.
 Use regular expression to query and save results.
 
-	-r, --row		row_filter		row_filter in re format.
+	-r, --row	row_filter	row_filter in re format.
 	-c, --column	column_filter	column_filter in re format.
-	-s				filename		save figure with given name.
-	-h, --help						print help infomation.
+	-s		filename	save figure with given name.
+	-h, --help			print help infomation.
 ```
 
 ### Examples
