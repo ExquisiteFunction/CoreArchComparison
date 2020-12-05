@@ -24,17 +24,17 @@ Use regular expression to query and save results.
 python3 CoreArchDataBase.py -r "Front" -s "./image/AMD FrontEnd Comparation.png"
 ```
 
-![AMD FrontEnd Comparation](./image/AMD FrontEnd Comparation.png)
+![AMD FrontEnd Comparation](https://github.com/ExquisiteFunction/CoreArchComparison/blob/main/image/AMD%20FrontEnd%20Comparation.png)
 
 ```shell
 python3 CoreArchDataBase.py -r "(.*)INT(.*)" -s "./image/AMD INT Comparation.png"
 ```
 
-![AMD INT Comparation](./image/AMD INT Comparation.png)
+![AMD INT Comparation](https://github.com/ExquisiteFunction/CoreArchComparison/blob/main/image/AMD%20INT%20Comparation.png)
 
 ```shell
 python3 CoreArchDataBase.py -r "(.*)Cache(.*)" -c "(.*)Zen2" -s "./image/AMD Zen2 Cache Info.png"
 ```
 
-![AMD Zen2 Cache Info](./image/AMD Zen2 Cache Info.png)
+![AMD Zen2 Cache Info](https://github.com/ExquisiteFunction/CoreArchComparison/blob/main/image/AMD%20Zen2%20Cache%20Info.png)
 
