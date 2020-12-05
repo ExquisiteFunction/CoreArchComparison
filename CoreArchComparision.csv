@@ -1,0 +1,62 @@
+,,,X86,X86,X86,
+,,,AMD Zen,AMD Zen2,AMD Zen3,prop
+BasicInfo,Info,Year,2016,2018,2020,no
+BasicInfo,Info,Process Technology,14,7,7,no
+BasicInfo,Info,pipeline stage,19,19,,no
+BasicInfo,Info,cores,4,4,8,no
+FrontEnd,Fetch,L1 Predictor,Hashed Perceptron,Hashed Perceptron,Hashed Perceptron,no
+FrontEnd,Fetch,L2 Predictor,Perceptron,TAGE,TAGE,no
+FrontEnd,Fetch,L0 iTLB Entries,8,8,8,yes
+FrontEnd,Fetch,L1 iTLB Entries,64,64,64,yes
+FrontEnd,Fetch,L2 iTLB Entries(K),0.5,0.5,0.5,yes
+FrontEnd,Fetch,L0 BTB,8,16,16,yes
+FrontEnd,Fetch,L1 BTB(K),0.25,0.5,1,yes
+FrontEnd,Fetch,L2 BTB(K),4,7,6.5,yes
+FrontEnd,Fetch,table walkers,2,2,6,yes
+FrontEnd,Fetch,Return Stack,32,32,32,yes
+FrontEnd,Fetch,Indirect Target Array(K),0.5,1,1.5,yes
+FrontEnd,Fetch,L1 I Cache Size(KB),64,32,32,yes
+FrontEnd,Fetch,L1 I Cache Association(Way),4,8,8,yes
+FrontEnd,Decode,uop cache size(K),2,4,4,yes
+FrontEnd,Decode,uop cache width,0,8,8,yes
+FrontEnd,Decode,microcode rom,has,has,has,no
+FrontEnd,Decode,Decoder,4,4,4,yes
+FrontEnd,Issue,uop queue,0,0,0,yes
+FrontEnd,Issue,dispatched micro-ops,6,6,6,yes
+BackEnd,Schedule,ROB Size,192,224,256,yes
+BackEnd,Schedule,INT RF Size,168,180,182,yes
+BackEnd,Schedule,INT RF Width(B),16,32,32,yes
+BackEnd,Schedule,FP RF Size,160,160,160,yes
+BackEnd,Schedule,FP RF Width(B),16,32,32,yes
+BackEnd,Schedule,INT Buffer,0,0,0,yes
+BackEnd,Schedule,FP Buffer,0,0,0,yes
+BackEnd,Schedule,LD Buffer,0,0,0,yes
+BackEnd,Schedule,ST Buffer,0,0,0,yes
+BackEnd,Schedule,Branch Buffer,0,0,0,yes
+BackEnd,Schedule,retire bandwidth,8,8,8,yes
+BackEnd,Schedule,scheduler,180,188,192,yes
+BackEnd,Execute,Exec Ops,10,11,14,yes
+BackEnd,Execute,INT/BR Unit,4,4,5,yes
+BackEnd,Execute,FP Unit,4,4,6,yes
+BackEnd,Execute,FP Width(B),16,32,32,yes
+BackEnd,Execute,Vec Unit,4,4,4,yes
+BackEnd,Execute,Vec Width(B),16,32,32,yes
+BackEnd,Access,LD+ST Unit,2,3,3,yes
+BackEnd,Access,LD/ST Width(B),16,32,32,yes
+BackEnd,Access,LD Queue,72,72,72,yes
+BackEnd,Access,ST Queue,44,48,64,yes
+BackEnd,Access,L0 dTLB Entries,0,0,0,yes
+BackEnd,Access,L1 dTLB Entries,64,64,64,yes
+BackEnd,Access,L2 TLB Entries(K),1.5,2,2,yes
+BackEnd,Access,L1 D Cache Size(KB),32,32,32,yes
+BackEnd,Access,L1 D Cache Association(way),8,8,8,yes
+BackEnd,Access,L2 Cache Size(MB),0.5,0.5,0.5,yes
+BackEnd,Access,L2 Cache Association(way),8,8,8,yes
+BackEnd,Access,L2 Cache Type,inclusive,inclusive,inclusive,no
+BackEnd,Access,L2 Cache Private,private,private,private,no
+BackEnd,Access,L2 Latency,12,12,12,yes
+BackEnd,Access,L3 Cache Size(MB),8,16,32,yes
+BackEnd,Access,L3 Cache Association(way),16,16,16,yes
+BackEnd,Access,L3 Cache Type,victim,victim,victim,no
+BackEnd,Access,L2 Cache Private,shared,shared,shared,no
+BackEnd,Access,L3 Latency,35,39,46,yes
