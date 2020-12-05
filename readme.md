@@ -1,4 +1,4 @@
-###Introduction
+### Introduction
 
 This project collects mainstream CPU's core microarchitecture information in CSV form and provides a visualization tool helping comparison between different chips. Though there are only AMD's Zen, Zen2 and Zen3 described, I have prepared a dozen of chips made by Intel, IBM, Arm, RISCV and MIPS, which will be submitted in the future. All the architecture parameters should be labeled references clearly.
 
@@ -24,17 +24,17 @@ Use regular expression to query and save results.
 python3 CoreArchDataBase.py -r "Front" -s "./image/AMD FrontEnd Comparation.png"
 ```
 
-![AMD FrontEnd Comparation](AMD FrontEnd Comparation.png)
+![AMD FrontEnd Comparation](./image/AMD FrontEnd Comparation.png)
 
 ```shell
 python3 CoreArchDataBase.py -r "(.*)INT(.*)" -s "./image/AMD INT Comparation.png"
 ```
 
-![AMD INT Comparation](AMD INT Comparation.png)
+![AMD INT Comparation](./image/AMD INT Comparation.png)
 
 ```shell
 python3 CoreArchDataBase.py -r "(.*)Cache(.*)" -c "(.*)Zen2" -s "./image/AMD Zen2 Cache Info.png"
 ```
 
-![AMD Zen2 Cache Info](AMD Zen2 Cache Info.png)
+![AMD Zen2 Cache Info](./image/AMD Zen2 Cache Info.png)
 
